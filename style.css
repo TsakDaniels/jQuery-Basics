@@ -1,0 +1,60 @@
+body {
+font-family: Arial; 
+color: white;
+
+}
+
+
+.header{
+text-align: center;
+color: yellow;
+}
+
+.menuTab{
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: inline;
+    margin: 10px;
+}
+
+.contactsTab{
+    background-color: rgb(156, 250, 143);
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: inline;
+    margin: 10px;
+}
+
+
+.tab {
+    color: red;
+    display: inline;
+    padding: 10px;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+
+.divTabs {
+    display: flex;
+    font-size: 20px;
+}
+
+
+.reviews {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.containerReviews {
+    background-color: pink;
+    margin: auto;
+    justify-content: center;
+    width: 40%;
+}
