@@ -41,9 +41,10 @@ margin: auto;
 .tab {
     color: rgba(255, 201, 235, 0.67);
     display: inline;
-    padding: 0px 50px 0px 50px;
+    margin-right: 100px;
+    margin-left: 20px;
     font-family:'Times New Roman', Times, serif;
-    margin-top: 0px;
+    
 }
 
 .tab:hover {
@@ -70,6 +71,7 @@ margin: auto;
     margin: auto;
     justify-content: center;
     width: 40%;
+    display: block;
 }
 
 .divNav {
@@ -77,4 +79,5 @@ margin: auto;
     background-color: rgba(0, 0, 0, 0.639);
     margin-bottom: 0px;
     padding-bottom: 5px;
+    
 }
